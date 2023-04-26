@@ -64,7 +64,7 @@ public class Bogota{
             stm.setString(8, sum);//8
             stm.executeUpdate();
             //ejecutamos el insert
-            JOptionPane.showMessageDialog(null, "Envio Exitoso desde: "+origen+", Hasta: "+destino+", en: "+tran);
+            JOptionPane.showMessageDialog(null, "Envio Exitoso desde: "+origen+", Hasta: "+destino+", en: "+tran+", enviado por: "+envia);
             //si se guarda correctamente se mostrará un mensaje de confirmación
             conectar.desconectar();
             //a trevez de la instancia nos desconectamos de la base de datos
